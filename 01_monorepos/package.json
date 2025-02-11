@@ -1,0 +1,14 @@
+{
+  "name": "snowtooth-mountain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "snowtooth-one:start": "pnpm -r --filter @snowtooth-mountain/snowtooth-one run start",
+    "snowtooth-two:start": "pnpm -r --filter @snowtooth-mountain/snowtooth-two run start",
+    "start": "pnpm -r run start"
+  },
+  "keywords": [],
+  "author": "Mario Lazzari",
+  "license": "ISC"
+}
