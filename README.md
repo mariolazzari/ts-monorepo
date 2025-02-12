@@ -16,3 +16,8 @@ pnpm -r run start
 packages:
   - "packages/**"
 ```
+
+## Configuring  workspaces
+
+Use "type": "module" in package.json
+Add dependency

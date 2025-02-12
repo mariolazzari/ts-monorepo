@@ -1,0 +1,16 @@
+{
+  "name": "@snowtooth-mountain/snowtooth-one",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Mario Lazzari",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@snowtooth-mountain/snowtooth-two":"workspace.*"
+  }
+}
