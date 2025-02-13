@@ -1,3 +1,7 @@
+import { calculateHikingTime } from "../snowtooth-two";
+
+calculateHikingTime()
+
 function calculateElevation(feet) {
   const meters = feet * 0.3048;
 

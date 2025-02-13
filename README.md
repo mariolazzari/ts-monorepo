@@ -21,3 +21,9 @@ packages:
 
 Use "type": "module" in package.json
 Add dependency
+
+## Turborepo
+
+```sh
+npx create turborepo@latest
+```
