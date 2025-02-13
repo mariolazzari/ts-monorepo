@@ -25,5 +25,6 @@ Add dependency
 ## Turborepo
 
 ```sh
-npx create turborepo@latest
+npx create-turbo@latest
+pnpm install jest -D --recursive --filter=web --filter=@repo/ui
 ```

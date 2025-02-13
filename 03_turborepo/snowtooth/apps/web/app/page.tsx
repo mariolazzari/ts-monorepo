@@ -1,6 +1,7 @@
 import Image, { type ImageProps } from "next/image";
 import { Button } from "@repo/ui/button";
 import styles from "./page.module.css";
+import { calculateElevation } from "@repo/elevation/calculateElevation";
 
 type Props = Omit<ImageProps, "src"> & {
   srcLight: string;
@@ -10,8 +11,11 @@ type Props = Omit<ImageProps, "src"> & {
 const ThemeImage = (props: Props) => {
   const { srcLight, srcDark, ...rest } = props;
 
+  const elevation = calculateElevation(10);
+
   return (
     <>
+      <h2>{elevation}</h2>
       <Image {...rest} src={srcLight} className="imgLight" />
       <Image {...rest} src={srcDark} className="imgDark" />
     </>
