@@ -28,3 +28,10 @@ Add dependency
 npx create-turbo@latest
 pnpm install jest -D --recursive --filter=web --filter=@repo/ui
 ```
+## Integration
+
+```sh
+turbo login
+turbo build
+turbo dev
+```
